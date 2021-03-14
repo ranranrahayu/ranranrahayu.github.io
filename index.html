@@ -5,11 +5,8 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      
       <!-- My CSS -->
       <link rel="stylesheet" href="css/style.css">
-
-
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Rhansoft Management</title>
@@ -388,7 +385,7 @@
               </ul>
             </div>
             <div class="col m7 s12">
-              <form>
+              <form class="contact-form" action="contactform.php" method="post">
                 <div class="card-panel">
                   <h5>Please fill out this form</h5>
                   <div class="input-field">
@@ -407,7 +404,7 @@
                     <textarea name="message" id="message" class="materialize-textarea"></textarea>
                     <label for="message">Message</label>
                   </div>
-                  <button type="submit" class="btn blue darken-2 btn-kirim">Send</button>
+                  <button type="submit" name="submit" class="btn blue darken-2 btn-kirim">Send</button>
                 </div>
               </form>
             </div>
@@ -419,9 +416,6 @@
       <footer class="blue darken-2 white-text center">
         <p class="flow-text">Rhansoft Management. Copyright 2021.</p>
       </footer>
-
-
-
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -448,17 +442,11 @@
           scrollOffset: 50        
         });
 
-        // M.toast({html: 'I am a toast!'})
-
       </script>
-
-
 
     </body>
   </html>
       
-
-
 
 
 
